@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/flexwork_bg.qm</file>
+        <file alias="de">locale/flexwork_de.qm</file>
+        <file alias="en">locale/flexwork_en.qm</file>
+        <file alias="es">locale/flexwork_es.qm</file>
+        <file alias="fi">locale/flexwork_fi.qm</file>
+        <file alias="fr">locale/flexwork_fr.qm</file>
+        <file alias="it">locale/flexwork_it.qm</file>
+        <file alias="ja">locale/flexwork_ja.qm</file>
+        <file alias="pl">locale/flexwork_pl.qm</file>
+        <file alias="pt">locale/flexwork_pt.qm</file>
+        <file alias="ru">locale/flexwork_ru.qm</file>
+        <file alias="sk">locale/flexwork_sk.qm</file>
+        <file alias="sv">locale/flexwork_sv.qm</file>
+        <file alias="vi">locale/flexwork_vi.qm</file>
+        <file alias="zh_CN">locale/flexwork_zh_CN.qm</file>
+        <file alias="zh_TW">locale/flexwork_zh_TW.qm</file>
+    </qresource>
+</RCC>

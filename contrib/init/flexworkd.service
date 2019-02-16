@@ -1,0 +1,26 @@
+[Unit]
+Description=FLX's distributed currency daemon
+After=network.target
+
+[Service]
+User=flexwork
+Group=flexwork
+
+Type=forking
+PIDFile=/var/lib/flexworkd/flexworkd.pid
+
+ExecStart=/usr/bin/flexworkd -daemon -pid=/var/lib/flexworkd/flexworkd.pid \
+          -conf=/etc/flexwork/flexwork.conf -datadir=/var/lib/flexworkd
+
+ExecStop=-/usr/bin/flexwork-cli -conf=/etc/flexwork/flexwork.conf \
+         -datadir=/var/lib/flexworkd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

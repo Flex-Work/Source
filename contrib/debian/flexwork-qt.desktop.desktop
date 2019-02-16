@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FLX
+Comment=FLX P2P Cryptocurrency
+Exec=flexwork-qt %u
+Terminal=false
+Type=Application
+Icon=flexwork128
+MimeType=x-scheme-handler/flexwork;
+Categories=Office;Finance;
+Name[en_US]=flexwork-qt.desktop

@@ -1,0 +1,26 @@
+# /etc/conf.d/flexworkd: config file for /etc/init.d/flexworkd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/flexwork/flexwork.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/flexworkd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/flexworkd.pid"
+
+# Where to write flexworkd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/flexworkd"
+
+# User and group to own flexworkd process
+#BITCOIND_USER="flexwork"
+#BITCOIND_GROUP="flexwork"
+
+# Path to flexworkd executable
+#BITCOIND_BIN="/usr/bin/flexworkd"
+
+# Nice value to run flexworkd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
